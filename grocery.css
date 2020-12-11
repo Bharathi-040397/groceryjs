@@ -1,0 +1,149 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: antiquewhite;
+}
+.whole-container
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+    margin: 10% auto;
+    background-color: white;
+    width: 550px;
+    height: auto;
+}
+.alert
+{
+    display: none;
+}
+.alert-success
+{
+    margin-bottom:  1rem;
+    background-color: rgb(47, 155, 56);
+    width:450px;
+    letter-spacing: .2rem;
+    font-size: 15px;
+    font-weight: 600;
+    color: white;
+     text-align: center;
+    font-weight: 600;
+    text-transform: capitalize;
+    display: block;
+}
+.alert-danger
+{
+     margin-bottom:  1rem;
+    background-color: rgb(47, 155, 56);
+    width:450px;
+    letter-spacing: .2rem;
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 15px;
+    font-weight: 600;
+    color: white;
+    background-color:rgb(148, 36, 36);
+    display: block;
+   
+}
+.title{
+    font-size: 30px;
+    text-transform: capitalize;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: .5rem;
+    color: teal;
+}
+.form-content
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: .5rem;
+}
+.grocery-input
+{
+    padding: .7rem;
+    background-color: rgb(221, 226, 231);
+    border: none;
+    outline: none;
+    width: 300px;
+    padding-left: 1rem;
+}
+.submit-btn
+{
+padding: .7rem;
+width: 150px;
+border: none;
+outline: none;
+background-color:rgb(157, 197, 197);
+font-size: 16px;
+text-transform: capitalize;
+cursor: pointer;
+border-radius: 2px;
+}
+.grocery-list
+{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    align-items: center;
+
+}
+.grocery-container
+{
+    margin: 2rem;
+    display: none;
+}
+.show-container
+{
+    display: block;
+}
+.groceryBOX
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: whitesmoke;
+    width: 450px;
+    height: 2rem;
+    padding: .3rem 3rem;
+    margin-top: .2rem;
+    
+}
+.grocery-item
+{
+ margin-top: 1rem;
+}
+.btn-container
+{
+    display: flex;
+}
+.btn{
+    border: none;
+    background: none;
+
+}
+.btn-box
+{
+text-align: center;
+margin-top: 2rem;
+}
+.clear-btn
+{
+    padding: .4rem;
+    width: 150px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    background-color:rgb(114, 92, 81);
+}
